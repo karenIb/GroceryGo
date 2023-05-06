@@ -67,7 +67,7 @@ class ProductActivity : AppCompatActivity() {
                                 }
                             )
                             binding.tvName.text = details.name
-                            binding.sdProductImage.setImageURI(details.actualImage())
+                            binding.sdProductImage.setImageURI(details.imageURL)
                             binding.tvPrice.text = "${details.price} $"
                             if (details.discountedPrice != 0) {
                                 binding.tvDiscounted.isVisible = true

@@ -84,7 +84,7 @@ class ExploreFragment : Fragment() {
                                         when (res) {
                                             is Resource.Error -> {
                                                 Toast.makeText(
-                                                    requireContext(),
+                                                    requireActivity(),
                                                     res.message,
                                                     Toast.LENGTH_SHORT
                                                 ).show()
@@ -192,7 +192,7 @@ class ExploreFragment : Fragment() {
                                             is Resource.Success -> {
                                                 maiNViewModel.incrementCard()
                                                 Toast.makeText(
-                                                    requireContext(),
+                                                    requireActivity(),
                                                     "Added Successfully",
                                                     Toast.LENGTH_SHORT
                                                 ).show()

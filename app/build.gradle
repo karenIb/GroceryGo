@@ -65,9 +65,10 @@ dependencies {
 
     implementation "androidx.viewpager2:viewpager2:1.0.0"
 
-    implementation 'com.facebook.fresco:fresco:3.0.0'
+    implementation 'com.facebook.fresco:fresco:2.6.0'
 
     implementation "com.tbuonomo:dotsindicator:4.3"
+
 
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.6.1'

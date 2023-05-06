@@ -2,7 +2,7 @@ package com.example.grocerygo.network
 
 object Endpoints {
 
-    const val ip = "http://192.168.173.204"
+    const val ip = "http://172.27.46.120"
     const val host = "$ip:8888/"
     const val login = "profile/login"
     const val register = "profile/register"
